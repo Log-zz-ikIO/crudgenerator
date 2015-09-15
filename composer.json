@@ -1,0 +1,35 @@
+{
+    "name": "crudgenerator/crud-generator",
+    "license": "MIT",
+    "description": "Laravel 5 CRUD Generator",
+    "keywords": [
+        "laravel",
+        "crud",
+        "crud generator",
+        "laravel scaffold"
+    ],    
+    "authors": [
+        {
+            "name": "Sohel Amin",
+            "email": "sohelamincse@gmail.com",
+            "homepage": "http://www.appzcoder.com"
+        },
+        {
+            "name": "Fernando Alves",
+            "email": "developer.fernando@gmail.com",
+            "homepage": "http://www.metacoding.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.*",
+        "laravelcollective/html": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CrudGenerator\\CrudGenerator\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true    
+}
