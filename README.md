@@ -1,0 +1,2 @@
+# crudgenerator
+Laravel crud generator
