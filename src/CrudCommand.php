@@ -14,7 +14,7 @@ class CrudCommand extends Command
      *
      * @var string
      */
-    protected $name = 'crud:generate';
+    protected $name = 'scaffold';
 
     /**
      * The console command description.
